@@ -1,0 +1,4 @@
+mahmoud:
+  name: mahmoud adel
+  email: mahmoudtaha@gmail.com
+  password_digest: <%= User.digest('password') %>
