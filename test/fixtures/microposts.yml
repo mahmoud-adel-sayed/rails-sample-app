@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content: "this is a test"
+  created_at: <%= 3.years.ago %>
+  user: mahmoud
+
+two:
+  content: "this is a test 2"
+  created_at: <%= 2.hours.ago %>
+  user: mahmoud
+
+most_recent:
+  content: "Writing a short test"
+  created_at: <%= Time.zone.now %>
+  user: mahmoud
+
+<% 30.times do |n| %>
+micropost_<%= n %>:
+  content: <%= Faker::Lorem.sentence(5) %>
+  created_at: <%= 40.days.ago %>
+  user: mahmoud
+<% end %>
+
+dogs:
+  content: "my dog is alway barking."
+  created_at: <%= 2.years.ago %>
+  user: ahmed
+
+cats:
+  content: "I have a cute cat."
+  created_at: <%= 28.days.ago %>
+  user: ali
