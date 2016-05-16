@@ -1,0 +1,15 @@
+one:
+  follower: mahmoud
+  followed: ahmed
+
+two:
+  follower: mahmoud
+  followed: ali
+
+three:
+  follower: ahmed
+  followed: mahmoud
+
+four:
+  follower: ali
+  followed: mahmoud
