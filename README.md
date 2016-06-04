@@ -2,4 +2,4 @@
 This is a sample application for a tiny twitter clone.
 
 ### App demo
-The app demo hosted on heroku [mahmoud-adel-rails.herokuapp.com](http://mahmoud-adel-rails.herokuapp.com){:target="_blank"}
+The app demo hosted on heroku <a href="https://mahmoud-adel-rails.herokuapp.com" target="_blank">mahmoud-adel-rails.herokuapp.com</a>
